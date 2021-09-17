@@ -1,7 +1,13 @@
 */.exercism/
 */package.json
 */README.md
+/node_modules/
 */node_modules/*
 */babel.config.js
+.npmrc
 */.npmrc
+.eslintrc
 */.eslintrc
+*/pnpm-lock.yaml
+package-lock.json
+*/package-lock.json

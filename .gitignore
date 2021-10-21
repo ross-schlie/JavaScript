@@ -1,7 +1,9 @@
 */.exercism/
 */package.json
 */README.md
+*/HELP.md
 /node_modules/
+*/node_modules/
 */node_modules/*
 */babel.config.js
 .npmrc

@@ -15,12 +15,8 @@
  *  translated coordinate pair in the form [x, y]
  */
 export function translate2d(dx, dy) {
-  let x = dx;
-  let y = dy;
-  return function(adjustX, adjustY) {
-    x += adjustX;
-    y += adjustY;
-    return [x, y];
+  return function(x, y) {
+    return [x + dx, y + dy];
   };
 }
 
@@ -35,12 +31,8 @@ export function translate2d(dx, dy) {
  *  scaled coordinate pair in the form [x, y]
  */
 export function scale2d(sx, sy) {
-  let x = sx;
-  let y = sy;
-  return function(scaleX, scaleY) {
-    x *= scaleX;
-    y *= scaleY;
-    return [x, y];
+  return function (x, y) {
+    return [x * sx, y * sy];
   };
 }
 
